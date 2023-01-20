@@ -1,4 +1,4 @@
-#include "holberton.h"
+#include "main.h"
 
 /**
  * print_buf - prints buffer
@@ -8,5 +8,5 @@
  */
 int print_buf(char *buf, unsigned int nbuf)
 {
-	return (write(1, buf, nbuf));
+return (write(1, buf, nbuf));
 }
